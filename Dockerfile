@@ -3,6 +3,7 @@ FROM ubuntu:latest
 #install dependencies
 
 RUN apt-get update && apt-get install -y \
+    libyaml-dev \
     python3.10 \ 
     python3-pip \
     git
